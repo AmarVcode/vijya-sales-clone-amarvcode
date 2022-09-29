@@ -276,6 +276,8 @@ img {
     background-color: white;
     margin: auto;
     border-bottom: 1px solid grey;
+    flex-wrap: nowrap;
+    gap: 10px;
 }
 
 
@@ -291,8 +293,14 @@ img {
     border: none;
     font-size: 2vh;
     cursor: pointer;
-    transition: 1s ease-in-out;
+    transition: 100ms ease-in-out;
     text-transform: uppercase;
+    border-bottom: 4px solid transparent;
+    padding:5px;
+}
+
+.dropbtn-mininav-one:hover{
+    border-bottom: 4px solid red;
 }
 
 .dropdown-mininav-one {
@@ -312,6 +320,22 @@ img {
     margin: auto;
     cursor: pointer;
     width: 100vh;
+    right: 0vh;
+    left: 0vh;
+}
+
+.dropdown-content-mininav-two {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+    width: 100vh;
+    right: 0vh;
 }
 
 .dropdown-content-mininav-one>div {
@@ -357,6 +381,91 @@ img {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropdown-content-mininav-two>div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.dropdown-content-mininav-two>div>div>h1 {
+    font-size: 2.1vh;
+    text-transform: uppercase;
+}
+
+.dropdown-content-mininav-two>div>div>h2 {
+    font-size: 1.5vh;
+    color: blue;
+}
+
+.dropdown-content-mininav-two>div>div a{
+    width: 100%;
+    display: inline-block;
+    font-size: 2vh;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 2px;
+    border-radius: 5px;
+    transition: 500ms;
+}
+
+.dropdown-content-mininav-two>div>div a:hover{
+    color: black;
+    border: 2px solid red;
+    color: red;
+
+}
+
+.dropdown-content-mininav-two>div>div a:active{
+    color: white;
+    border: 2px solid red;
+    background-color: red;
+}
+
+
+
 .dropdown-mininav-one:hover .dropdown-content-mininav-one {
     display: block;
 }
+
+.dropdown-mininav-one:hover .dropdown-content-mininav-two {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Doned navbar hahahahahaahaaaaaaaaaaaaa */
+
+
+
