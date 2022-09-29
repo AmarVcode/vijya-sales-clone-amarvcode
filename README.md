@@ -1,2 +1,2 @@
-# vijya-sales-clone-amarvcode
+# vijay-sales-clone-amarvcode
  #just for fun
