@@ -289,9 +289,10 @@ img {
     background-color: rgba(255, 255, 255, 0.199);
     color: black;
     border: none;
-    font-size: 2.2vh;
+    font-size: 2vh;
     cursor: pointer;
     transition: 1s ease-in-out;
+    text-transform: uppercase;
 }
 
 .dropdown-mininav-one {
@@ -304,13 +305,13 @@ img {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    width: 190vh;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     z-index: 1;
     padding: 20px;
     border-radius: 5px;
     margin: auto;
     cursor: pointer;
+    width: 100vh;
 }
 
 .dropdown-content-mininav-one>div {
@@ -321,6 +322,7 @@ img {
 
 .dropdown-content-mininav-one>div>div>h1 {
     font-size: 2.1vh;
+    text-transform: uppercase;
 }
 
 .dropdown-content-mininav-one>div>div>h2 {
