@@ -298,10 +298,10 @@ img {
     transition: 100ms ease-in-out;
     text-transform: uppercase;
     border-bottom: 4px solid transparent;
-    padding:5px;
+    padding: 5px;
 }
 
-.dropbtn-mininav-one:hover{
+.dropbtn-mininav-one:hover {
     border-bottom: 4px solid red;
 }
 
@@ -356,7 +356,7 @@ img {
     color: blue;
 }
 
-.dropdown-content-mininav-one>div>div a{
+.dropdown-content-mininav-one>div>div a {
     width: 100%;
     display: inline-block;
     font-size: 2vh;
@@ -368,14 +368,14 @@ img {
     transition: 500ms;
 }
 
-.dropdown-content-mininav-one>div>div a:hover{
+.dropdown-content-mininav-one>div>div a:hover {
     color: black;
     border: 2px solid red;
     color: red;
 
 }
 
-.dropdown-content-mininav-one>div>div a:active{
+.dropdown-content-mininav-one>div>div a:active {
     color: white;
     border: 2px solid red;
     background-color: red;
@@ -420,7 +420,7 @@ img {
     color: blue;
 }
 
-.dropdown-content-mininav-two>div>div a{
+.dropdown-content-mininav-two>div>div a {
     width: 100%;
     display: inline-block;
     font-size: 2vh;
@@ -432,14 +432,14 @@ img {
     transition: 500ms;
 }
 
-.dropdown-content-mininav-two>div>div a:hover{
+.dropdown-content-mininav-two>div>div a:hover {
     color: black;
     border: 2px solid red;
     color: red;
 
 }
 
-.dropdown-content-mininav-two>div>div a:active{
+.dropdown-content-mininav-two>div>div a:active {
     color: white;
     border: 2px solid red;
     background-color: red;
@@ -476,13 +476,13 @@ img {
 
 
 
-#slider{
+#slider {
     display: inline-block;
     width: 100%;
     height: 50vh;
 }
 
-#slider>iframe{
+#slider>iframe {
     width: 100%;
     height: 100%;
     border: none;
@@ -493,76 +493,76 @@ img {
 
 /* Lets start Main content */
 
-.boxes{
+.boxes {
     text-align: center;
     max-width: 200vh;
     margin: auto;
 }
 
-.top-heading{
+.top-heading {
     font-weight: normal;
     font-size: 4vh;
     border-bottom: 3px solid rgb(0, 0, 179);
     width: fit-content;
     margin: auto;
     padding: 5px;
-    
+
 }
 
 
-.box1{
+.box1 {
     margin-top: 20px;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    
+
 }
 
-img{
+img {
     transition: 1s ease-in-out;
 }
 
-img:hover{
-transform: scale(0.9);
-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+img:hover {
+    transform: scale(0.9);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 
-.box1-flex{
+.box1-flex {
     display: block;
     flex-wrap: wrap;
 }
 
-.card{
+.card {
     padding: 10px;
     border-radius: 20px;
     transition: 1s ease-in-out;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(0.9);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.card img{
-width: 100%;
-transition: none;
-transform: scale(0.7);
-box-shadow: none;
+.card img {
+    width: 100%;
+    transition: none;
+    transform: scale(0.7);
+    box-shadow: none;
 }
 
-.card>h1{
+.card>h1 {
     font-size: 2vh;
     text-align: left;
 }
- 
-.card>p{
+
+.card>p {
     font-size: 2vh;
     text-align: left;
     color: green;
 }
- 
 
-.card>h2{
+
+.card>h2 {
     font-size: 2.2vh;
     text-align: left;
     color: red;
@@ -596,18 +596,147 @@ box-shadow: none;
 
 /* start of footer */
 
-footer{
+footer {
     background-color: black;
 }
 
 
-#footer-1{
+#footer-1 {
     display: grid;
-    grid-template-columns:  auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto 30%;
     color: white;
-    
+    gap: 40px;
     width: 90%;
     margin: auto;
     padding: 40px;
 }
- 
+
+#footer-1 h1 {
+    font-size: 2.5vh;
+    border-bottom: 1px solid rgb(184, 0, 0);
+    width: fit-content;
+    padding: 10px;
+    color: grey;
+}
+
+#footer-1 a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: grey;
+    margin: 4px;
+    border: 2px solid black;
+    padding: 1px 10px;
+    transition: 1s;
+}
+
+#footer-1 a:hover {
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+}
+
+#footer-1 a:active {
+    transition: 100ms;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: black;
+    background: white;
+}
+
+#footer-last>p {
+    color: grey;
+    font-size: 2vh;
+}
+
+#footer-last>input {
+    color: grey;
+    font-size: 2vh;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.footer-1-flex {
+    display: flex;
+    gap: 5px;
+}
+
+.footer-1-flex img{
+    width: 100%;
+    height: 5vh;
+}
+
+#footer-2>img{
+width: 40vh;
+margin-left: 40%;
+}
+
+#footer-2>div{
+    display: flex;
+    width: 80%;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+}
+
+#footer-2 a{
+    display: inline-block;
+    width: fit-content;
+    border: 1px solid black;
+    border-right: 1px solid grey;
+    padding: 0px 10px;
+    font-size: 2vh;
+    text-decoration: none;
+    color: grey;
+    text-align: center;
+    transition: 500ms;
+}
+
+#footer-2 a:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+#footer-2 a:active{
+    border: 1px solid white;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+}
+
+.footer-3{
+    background: white;
+    display: flex;
+    padding: 0px 300px;
+    gap: 20px;
+
+}
+
+.footer-3 img{
+    width: 20vh;
+    padding: 20px;
+}
+
+.footer-4{
+    padding: 40px;
+}
+
+.footer-4 p{
+    color: grey;
+    width: 90%;
+    margin: auto;
+    font-size: 2vh;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-last{
+    color: white;
+    text-align: center;
+    font-size: 1.5vh;
+    padding-bottom: 100px;
+    background: black;
+}
